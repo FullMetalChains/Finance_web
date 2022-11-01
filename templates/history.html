@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    {% for row in row %}
+    <p>{{ row['log'] }}</p>
+    {% endfor %}
+{% endblock %}

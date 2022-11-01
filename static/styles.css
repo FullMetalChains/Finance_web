@@ -1,0 +1,42 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+.cards
+{
+    background-color: #f0f1f2;
+    width: 500px;
+    margin: auto;
+    border: 2px solid #e1e3e6;
+    border-radius: 5px;
+}
+.cardcontent
+{
+    font-size: 30px;
+    padding: 10px;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-shrink: 10;
+    text-shadow: 1px 1px white;
+}
